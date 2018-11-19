@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppContainer from "../components/AppContainer";
+import { AppContainer } from "../components/AppContainer";
 import EditCourse from "../components/EditCourse";
 
 export default class LoginPage extends Component {

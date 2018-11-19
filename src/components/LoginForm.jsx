@@ -29,7 +29,7 @@ export default class LoginForm extends Component {
 
   render() {
     return (
-      <div className="Login">
+      <div className="login">
         <form onSubmit={this.handleSubmit}>
           <FormGroup controlId="email" bsSize="large">
             <ControlLabel>Email</ControlLabel>

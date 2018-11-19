@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppContainer from "../components/AppContainer";
+import { AppContainer } from "../components/AppContainer";
 import Course from "../components/Course";
 import Navigation from "../components/Navigation";
 const courses = [
@@ -22,7 +22,7 @@ const courses = [
 
 export default class CoursesPage extends Component {
   renderCourses = () => {
-    return courses.map(i => <Course course={i} />);
+    return courses.map(i => <Course key={i.id} course={i} />);
   };
 
   handleClick = id => {
