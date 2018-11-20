@@ -6,7 +6,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Button from "@material-ui/core/Button";
 import ArrowBack from "@material-ui/icons/ArrowBack";
 import ArrowForward from "@material-ui/icons/ArrowForward";
-import "../styles/EditCourse.css";
+import "./EditCourse.css";
 
 export default class EditCourse extends Component {
   render() {

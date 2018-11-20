@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import HeaderApp from "./Header";
-import FooterApp from "./Footer";
-import "../styles/AppContainer.css";
+import { HeaderApp } from "../header";
+import { FooterApp } from "../footer";
+import "./AppContainer.css";
 
 export class AppContainer extends Component {
   render() {

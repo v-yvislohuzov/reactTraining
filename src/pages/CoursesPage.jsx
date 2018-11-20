@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { AppContainer } from "../components/AppContainer";
-import Course from "../components/Course";
-import Navigation from "../components/Navigation";
+import { AppContainer } from "../components/core/app/AppContainer";
+import Course from "../components/cources/Course";
+import Navigation from "../components/cources/Navigation";
 const courses = [
   {
     id: 1,

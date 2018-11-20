@@ -3,9 +3,9 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import "../styles/Header.css";
+import "./Header.css";
 
-class HeaderApp extends Component {
+export class HeaderApp extends Component {
   render() {
     return (
       <div className="header-root">
@@ -23,5 +23,3 @@ class HeaderApp extends Component {
     );
   }
 }
-
-export default HeaderApp;
