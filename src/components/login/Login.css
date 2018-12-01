@@ -1,0 +1,10 @@
+.login {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+}
+
+.login form {
+  margin: auto;
+  max-width: 320px;
+}
